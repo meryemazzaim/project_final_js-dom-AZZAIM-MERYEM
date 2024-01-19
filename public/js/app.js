@@ -14,9 +14,11 @@ button_break.addEventListener('click', () => {
     menu_lunch.style.display = 'none'
 })
 
-let btn = document.querySelector('.btn')
-let modal = document.querySelector('.modal')
-btn.addEventListener('click', () => {
-    modal.style.display = "block"
-})
+// let btn = document.querySelector('.btn')
+// let modal = document.querySelector('.modal')
+// btn.addEventListener('click', () => {
+//     modal.style.display = "block"
+// })
+
+
 
