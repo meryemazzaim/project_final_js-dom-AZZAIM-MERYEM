@@ -7,6 +7,7 @@
 body {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 
 }
 
@@ -391,6 +392,9 @@ h5 {
 
 
 @media (max-width: 426px) {
+
+
+
     .sectionone {
         justify-content: center;
         flex-direction: column;
@@ -580,11 +584,45 @@ h5 {
         flex-direction: column;
     }
 
-    .sectim {
+
+
+    .dernier {
+        display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        width: 90%;
     }
+
+    .sectionn {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 10%;
+    }
+
+    .foateer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        flex-direction: column;
+    }
+
+
+
 
 
 
